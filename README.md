@@ -58,3 +58,14 @@ Brand Studio now has synchronized HEX code fields and color pickers for primary,
 ## V2.5 — Posting Time Advisor
 
 Open **Posting Times** in the left navigation (mobile: open the menu). Select a client, edit the audience location and IANA time zone, and optionally add Instagram follower activity by weekday/hour from real Instagram Insights. The dashboard ranks observed audience activity; if at least three published posts with recorded reach exist in a time slot, it ranks those sufficiently sampled slots by average reach. With no data it displays clearly labelled exploratory test windows, not factual best times. Use **Set time** to assign a planned time to calendar items. Enter actual reach and enquiries through **Content → Insights**, and mark items published only when published. All records are local and included in JSON backups. The app does not connect to Instagram or schedule posts automatically. Posting-time recommendations cannot guarantee reach.
+
+## V2.6 — Unified workflow
+
+- New four-item navigation: Home, Clients, Workspace, Settings. Additional tools are accessible through the workspace and Settings → More tools.
+- Select a client to open their unified monthly workspace. Select the month once; AI planning, content, timing and reporting are scoped to that client and month.
+- Guided monthly checklist covers client setup, content import, design/approval, suggested times and reporting.
+- Inline content cards provide design prompts, design links via Edit, approval, timing and metrics.
+- **Reels, posts and stories all receive time suggestions.** If 3+ comparable published items exist for a content type at a slot, type-specific reach history is used; otherwise follower activity or clearly labeled experimental windows are used. These are not guaranteed optimal times.
+- "Suggest missing times" fills only unscheduled items and requires confirmation. Manual overrides remain available.
+- Data is still stored in the existing `social-desk-v2` IndexedDB workspace. Export a backup before upgrading, and retain the same browser origin to access existing records.
+- No automatic Instagram publishing, API connection, or cloud synchronization.
