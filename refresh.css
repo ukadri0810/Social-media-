@@ -20,3 +20,6 @@ body{background:radial-gradient(circle at 75% -10%,#e4f6f2 0,transparent 38%),va
 
 /* Brand Studio HEX controls */
 .brand-color-control{display:flex;align-items:center;gap:10px;min-width:0}.brand-color-picker{width:58px!important;height:46px!important;min-width:58px;padding:4px!important;cursor:pointer;border-radius:12px!important}.brand-hex-input{flex:1;min-width:0;font-family:ui-monospace,SFMono-Regular,Consolas,monospace!important;letter-spacing:.06em;text-transform:uppercase}.brand-hex-input:invalid{border-color:#d95757!important}.brand-color-help{font-size:11px;color:var(--muted,#73808b);margin-top:4px;display:block}@media(max-width:520px){.brand-color-control{gap:8px}.brand-color-picker{width:52px!important;min-width:52px}}
+
+/* Posting time advisor */
+.timing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:18px 0}.timing-slot{border:1px solid var(--border,#dce5e9);border-radius:15px;padding:17px;background:var(--surface,#f8fafc);display:flex;flex-direction:column;gap:9px}.timing-slot strong{font-size:1.05rem}.timing-slot:first-child{border-color:#1c9b84;background:rgba(28,155,132,.06)}
