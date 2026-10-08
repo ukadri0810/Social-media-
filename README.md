@@ -41,3 +41,12 @@ In AI Studio select a client and target month, copy the fresh monthly calendar p
 Content → Insights lets you record per-post reach, views, saves, shares and enquiries. The next month's prompt includes up to 80 historical content records and recent monthly insights to reduce repetition and inform creative choices. It cannot guarantee originality or performance.
 
 AI content is NOT sent automatically; the user chooses what to paste into ChatGPT. Never paste confidential client data without permission.
+
+
+## V2.3 — Brand Studio and image prompts
+- Open **Brand Studio** in the sidebar (mobile: open the menu / More). Choose a client, enter approved brand colors and design instructions, then **Save brand profile**.
+- In **Content**, click **Design prompt** on any item to copy a brand-consistent ChatGPT image-generation prompt.
+- In **Brand Studio**, click **Generate monthly design prompts** to copy all prompts for the selected month (uses the Content calendar's month filter, or current month by default).
+- Use **Edit** on a content item to save a Canva/Google Drive **design link**; links must start with http:// or https://.
+- No image uploads, cloud storage, Firebase, paid APIs, or automatic image generation. Attach genuine client logo/reference separately to ChatGPT.
+- Existing V2.2 IndexedDB data remains in the same browser origin. Export a JSON backup before changing versions; brand profiles are included in future backups.

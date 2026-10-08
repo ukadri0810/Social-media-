@@ -14,3 +14,6 @@ body{background:radial-gradient(circle at 75% -10%,#e4f6f2 0,transparent 38%),va
 @media(max-width:390px){.card .metric{font-size:20px}.cards{gap:8px}.topright .btn{font-size:10px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important}}
 @media print{.welcome-banner{color:#000;background:#fff;box-shadow:none}.welcome-banner .btn{display:none}}
+
+/* V2.3 Brand Studio */
+.brand-intro{background:linear-gradient(110deg,#e8f5f1,#fff9eb);border:1px solid #dbeae5}.brand-intro h2{font-size:1.55rem;margin:8px 0}.brand-swatches{display:flex;gap:10px;margin-top:15px}.brand-swatches span{display:inline-block;width:38px;height:38px;border:2px solid #fff;border-radius:12px;box-shadow:0 1px 6px #0002}.prompt{white-space:pre-wrap;overflow-wrap:anywhere;max-height:55vh;overflow:auto}.contentrow .actions{flex-wrap:wrap}.field input[type=color]{height:44px;padding:4px;min-width:90px}@media(max-width:720px){.brand-intro h2{font-size:1.2rem}.contentrow .actions{gap:5px}}
