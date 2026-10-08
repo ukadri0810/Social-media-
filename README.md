@@ -50,3 +50,6 @@ AI content is NOT sent automatically; the user chooses what to paste into ChatGP
 - Use **Edit** on a content item to save a Canva/Google Drive **design link**; links must start with http:// or https://.
 - No image uploads, cloud storage, Firebase, paid APIs, or automatic image generation. Attach genuine client logo/reference separately to ChatGPT.
 - Existing V2.2 IndexedDB data remains in the same browser origin. Export a JSON backup before changing versions; brand profiles are included in future backups.
+
+## V2.4: Exact brand colors
+Brand Studio now has synchronized HEX code fields and color pickers for primary, secondary and accent colors. Enter #RRGGBB values, or choose visually; invalid HEX codes cannot be saved. Saved codes are included in image prompts. No cloud storage or Firebase required.
