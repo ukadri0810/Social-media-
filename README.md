@@ -32,3 +32,12 @@ The first invoice uses the subscription start date, later monthly invoices use t
 ## Team-readiness
 
 Records contain `orgId`, UUID-style IDs, timestamps and references, but no role enforcement. Do not treat the local version as a secure shared workspace.
+
+
+## V2.1 — Smart Content Planning
+
+In AI Studio select a client and target month, copy the fresh monthly calendar prompt into ChatGPT, and request the JSON array. Paste the response into the importer, validate and preview, then import as drafts. The importer checks date, type, package quantities, and likely duplicate titles/captions. Existing content is preserved. If warnings appear, revise the AI output and validate again.
+
+Content → Insights lets you record per-post reach, views, saves, shares and enquiries. The next month's prompt includes up to 80 historical content records and recent monthly insights to reduce repetition and inform creative choices. It cannot guarantee originality or performance.
+
+AI content is NOT sent automatically; the user chooses what to paste into ChatGPT. Never paste confidential client data without permission.
